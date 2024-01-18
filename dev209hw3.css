@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+button, input {
+    border-radius: 15px;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+fieldset {
+    background-color: lightblue;
+    margin: 15px;
+    padding: 10px;
+}
+
+legend {
+    background-color: lightgreen;
+    border-radius: 15px;
+    padding: 10px;
+}

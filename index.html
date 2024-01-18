@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="dev209hw3.css">
+        <meta charset="UTF-8">
+        <title>DEV 209 HW3</title>
+    </head>
+    <body>
+        <form onsubmit="return false">
+            <fieldset id="buttonsFieldset">
+                <legend>New or Existing User</legend>
+
+                <button onclick="NewUserButtonEvent()">Click for New User</button>
+                <button onclick="ExistingUserButtonEvent()">Click for Existing User</button>
+            </fieldset>
+            
+            <fieldset id="newUserFieldset" disabled="true">
+                <legend>New User</legend>
+
+                <label for="newUserUsername">Username:</label>
+                <input id="newUserUsername">
+
+                <label for="newUserPassword">Password:</label>
+                <input id="newUserPassword">
+
+                <label for="city">City:</label>
+                <input id="city">
+
+                <label for="state">State:</label>
+                <input id="state">
+
+                <button onclick="NewUserLoginButtonEvent()">Login</button>
+            </fieldset>
+
+            <fieldset id="existingUserFieldSet" disabled="true">
+                <legend>Existing User</legend>
+
+                <label for="existingUserUsername">Username:</label>
+                <input id="existingUserUsername">
+
+                <label for="existingUserPassword">Password:</label>
+                <input id="existingUserPassword">
+
+                <button onclick="ExistingUserLoginButtonEvent()">Login</button>
+            </fieldset>
+        </form>
+        <script type="text/javascript" src="dev209hw3.js"></script>
+    </body>
+</html>
